@@ -11,10 +11,6 @@ const tutorials = [
   'what is JSONP?'
 ];
 
-// const titleCased = () => {
-//   return tutorials
-// }
-
 const titleCased = () => {
   return tutorials.map((line) => {
     const tokens = line.split(" ");
